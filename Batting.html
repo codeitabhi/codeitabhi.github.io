@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cricket Statistics</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body style="padding-top: 50px;">
+      <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>  
+                    </button>
+                    <a href="index.html" class="navbar-brand">Cricket Stats</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                                <li><a href="Fixtures.html"><span class="glyphicon glyphicon-calendar"></span> Fixtures</a></li>
+                <li><a href="Batting.html"><span class="glyphicon glyphicon-signal"></span> Rankings</a></li>
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+        <br> 
+    <marquee>*****AUSW Vs INDW : INDW won by 32 runs*****SL Vs ENG : Stumps Day 3 : SL trail by 18 runs*****AUS Vs RSA : SA won by 21 runs*****IND Vs WI : Stumps Day 4 : IND needs 2 wickets to win*****</marquee>
+        <div id="content">
+
+<div class="dropdown">
+<button id="myBtn" class="dropbtn">Batting</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="Batting.html">Batting</a>
+    <a href="Bowling.html">Bowling</a>
+  </div>
+</div>
+
+<script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+<br>
+<br><h3>****Tests****</h3>
+<br>
+<table id="customers">
+  <tr>
+    <th>Position</th>
+    <th>Player</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Virat Kohli</td>
+    <td>935</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Steven Smith</td>
+    <td>910</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Williamson</td>
+    <td>901</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>JoeRoot</td>
+    <td>808</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>David Warner</td>
+    <td>803</td>
+  </tr>
+</table>
+
+<br>
+<br><h3>****One Day Internationals****</h3>
+<br>
+<table id="customers">
+  <tr>
+    <th>Position</th>
+    <th>Player</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Virat Kohli</td>
+    <td>899</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Rohit Sharma</td>
+    <td>877</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ross Taylor</td>
+    <td>809</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Joe Root</td>
+    <td>808</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Babar Azam</td>
+    <td>803</td>
+  </tr>
+</table>
+
+<br>
+<br><h3>****T20 Internationals****</h3>
+<br>
+<table id="customers">
+  <tr>
+    <th>Position</th>
+    <th>Player</th>
+    <th>Rating</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Babar Azam</td>
+    <td>858</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Aaron Finch</td>
+    <td>839</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Colin Munro</td>
+    <td>815</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Lokesh Rahul</td>
+    <td>808</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Fakhar Zaman</td>
+    <td>774</td>
+  </tr>
+</table>
+             <div class="container">
+                <div class="row text-center" id="item_list">
+                    <div class="col-sm-4">
+                        <a href=https://en.wikipedia.org/wiki/David_Warner_(cricketer)>
+                            <div class="thumbnail">
+                                <img src="img/b1.jpg" alt="">                               
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href=https://en.wikipedia.org/wiki/MS_Dhoni>
+                            <div class="thumbnail">
+                                <img src="img/b4.jpg" alt="">                               
+                            </div> 
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <a href=https://en.wikipedia.org/wiki/Virat_Kohli >
+                            <div class="thumbnail">
+                                <img src="img/b5.jpg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        
+                
+<footer>
+    <div class="container">
+        <center>
+        <p>
+            Copyright &copy; Cricket Info By Abhishek. All Rights Reserved<br> <i class="glyphicon glyphicon-phone-alt"> </i><a href="tel: +91-7379480011"> +91-7379480011</a>
+            <br><i class="glyphicon glyphicon-envelope"> </i><a href="mailto:abhishektheace02@gmail.com"> abhishektheace02@gmail.com</a>
+        </p>
+        </center>
+    </div>
+</footer>
+        
+    </body>
+</html>
